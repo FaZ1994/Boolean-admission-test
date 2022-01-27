@@ -11,11 +11,10 @@ body {
 /* CONTENITORE CON TRASPARENZA */
 
 .container {
-  background-color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 15px;
   margin: auto;
   width: 65%;
-  border: 3px;
   padding: 100px;
 }
 
@@ -24,32 +23,24 @@ body {
 .logo {
   width: 200px;
   margin: auto;
-  position: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .heading {
   font-size: 25px;
-  display: inline-block;
   color: #00dd00;
-  position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 5px;
 }
 
 /* BARRA DI NAVIGAZIONE */
 
 .nav-bar {
-  background-color: #00dd00;
+  background: #00dd00;
   padding: 8px;
-  position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .nav-bar button {
@@ -73,19 +64,18 @@ body {
 
 .charge-bar {
   height: 25px;
-  width: attr(data-value);
-  background-color: gray;
+  background: gray;
   border-radius: 3px;
 }
 
 .charge-bar.yellow {
-  background-color:  #f5b453;
+  background:  #f5b453;
 }
 
 .charge-bar.green {
-  background-color: #1ec31e;
+  background: #1ec31e;
 }
 
 .charge-bar.red {
-  background-color: #be4141;
+  background: #be4141;
 }
